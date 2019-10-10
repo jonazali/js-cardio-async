@@ -1,4 +1,5 @@
 const fs = require('fs').promises;
+
 /*
 All of your functions must return a promise!
 */
@@ -187,7 +188,10 @@ function intersect(fileA, fileB) {}
  */
 function difference(fileA, fileB) {}
 
+const PORT = 5000;
+
 module.exports = {
+  PORT,
   get,
   set,
   remove,
